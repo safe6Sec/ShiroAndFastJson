@@ -1,4 +1,4 @@
-package com.shiro.vuln.Shiro;
+package com.shiro.vuln.shiro;
 
 import java.util.LinkedHashMap;
 import org.apache.shiro.mgt.RememberMeManager;

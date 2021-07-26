@@ -1,5 +1,5 @@
 
-package com.shiro.vuln.Shiro;
+package com.shiro.vuln.shiro;
 
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

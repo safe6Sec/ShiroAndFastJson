@@ -1,4 +1,4 @@
-package com.shiro.vuln.Controller;
+package com.shiro.vuln.controller;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
