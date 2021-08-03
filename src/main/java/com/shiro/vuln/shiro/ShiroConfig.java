@@ -41,6 +41,7 @@ public class ShiroConfig {
         LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
         map.put("/doLogin", "anon");
         map.put("/json", "anon");
+        map.put("/index", "anon");
         map.put("/**", "user");
         bean.setFilterChainDefinitionMap(map);
         return bean;
