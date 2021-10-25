@@ -20,7 +20,6 @@ public class UserController {
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login((AuthenticationToken)new UsernamePasswordToken(username, password, rememberMe.equals("remember-me")));
-        // 如果认证失败
         }catch (AuthenticationException e) {
             return "forward:/login";
         }
