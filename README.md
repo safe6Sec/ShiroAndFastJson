@@ -9,3 +9,5 @@ shiro加fastjson环境
 /login 登录
 
 /json json解析
+
+/ser 反序列化
