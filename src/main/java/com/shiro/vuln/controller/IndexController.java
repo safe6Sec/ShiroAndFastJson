@@ -4,7 +4,7 @@ package com.shiro.vuln.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
-import com.shiro.vuln.filter.MemBehinder3;
+
 import com.shiro.vuln.filter.MemBehinderFilter;
 import org.apache.shiro.mgt.RememberMeManager;
 import org.apache.shiro.web.mgt.CookieRememberMeManager;
@@ -95,6 +95,11 @@ public class IndexController {
         return "init";
     }
 
+    @RequestMapping("hello")
+    public String hello(){
+        return "hello";
+    }
+
     @PostMapping("/json")
     @ResponseBody
     public JSONObject parse(@RequestBody String data) {
@@ -107,7 +112,7 @@ public class IndexController {
         // java.awt.Point
 
         JSON.parse(data);
-        JSON.parseObject(data);
+        //JSON.parseObject(data);
         return jsonObject;
     }
 }

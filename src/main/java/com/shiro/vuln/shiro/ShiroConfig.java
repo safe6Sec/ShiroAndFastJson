@@ -45,6 +45,7 @@ public class ShiroConfig {
         map.put("/init", "anon");
         map.put("/getKey", "anon");
         map.put("/setKey", "anon");
+        map.put("/ser", "anon");
         map.put("/**", "user");
         bean.setFilterChainDefinitionMap(map);
         return bean;

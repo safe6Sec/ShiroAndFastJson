@@ -1,3 +1,4 @@
+/*
 package com.shiro.vuln.filter;
 
 //
@@ -221,3 +222,4 @@ public class MemBehinder3 extends ClassLoader implements Filter {
         return true;
     }
 }
+*/
